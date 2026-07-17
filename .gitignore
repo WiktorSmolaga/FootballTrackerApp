@@ -141,3 +141,49 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# React Native / Metro
+.metro-health-check*
+react-native-packager-cache-*
+metro-bundler-cache-*
+haste-map-*
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+android/captures/
+android/.cxx/
+android/app/.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+!debug.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Firebase debug files
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
