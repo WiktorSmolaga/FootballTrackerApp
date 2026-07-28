@@ -1,8 +1,8 @@
-import {createStaticNavigation} from '@react-navigation/native'
-import MainTabs from './src/navigation/MainTabs';
+import {createStaticNavigation} from '@react-navigation/native';
+import RootStack from './src/navigation/RootStack';
 
 
-const Navigation = createStaticNavigation(MainTabs);
+const Navigation = createStaticNavigation(RootStack);
 
 function App() {
   return <Navigation/>; 
