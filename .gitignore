@@ -187,3 +187,8 @@ desktop.ini
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+
+# Backend
+backend/.env
+backend/node_modules/
+backend/dist/
